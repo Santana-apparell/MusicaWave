@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    padding:30px;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ),
+    url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f');
+
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#1DB954;
+}
+
+.contenedor{
+    max-width:1200px;
+    margin:auto;
+
+    background:rgba(20,20,20,0.9);
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 0 20px rgba(29,185,84,.3);
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    border-radius:10px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-agregar{
+    background:#1DB954;
+}
+
+.btn-editar{
+    background:#f39c12;
+}
+
+.btn-eliminar{
+    background:#e74c3c;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+table{
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+th{
+    background:#1DB954;
+    padding:15px;
+}
+
+td{
+    background:#222;
+    padding:12px;
+    text-align:center;
+}
+
+tr:hover td{
+    background:#333;
+}
+
+.formulario{
+    max-width:500px;
+    margin:auto;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+
+    border:none;
+    border-radius:10px;
+
+    background:#2c2c2c;
+    color:white;
+}
+
+input:focus{
+    outline:none;
+    box-shadow:0 0 10px #1DB954;
+}
+
+button{
+    width:100%;
+    padding:15px;
+
+    border:none;
+    border-radius:10px;
+
+    background:#1DB954;
+    color:white;
+
+    font-size:16px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1ed760;
+}
